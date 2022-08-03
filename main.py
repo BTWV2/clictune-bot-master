@@ -54,7 +54,7 @@ class CTB():
                                     }
                                 ],
                                 'footer': {
-                                    'text': 'CTB By Ѵιcнч\"RCΛ#1337 - github.com/Its-Vichy',
+                                    'text': 'CTB By ARGOCHE#0001 & Tias#0001 - github.com/BTWV2',
                                     'icon_url': 'https://photos.angel.co/startups/i/7641023-67bf91ba0e7f458607f981d1813d0ef8-medium_jpg.jpg?buster=1614716185'
                                 }
                             }
@@ -147,7 +147,7 @@ if __name__ == '__main__':
     ''' + Style.RESET_ALL)
 
     while True:
-        BOT = CTB('https://discord.com/api/webhooks/1003292255873925130/6IkzzLEAqMNujl--R2cdW4Obxb7Pi-drO0LwxmCANt01kwBA8y_q1oXE2XhGGvnrOXvv')
+        BOT = CTB('YOUR_WEHBOOK')
         BOT.load_files()
         BOT.start_worker()
         time.sleep(1)
